@@ -58,6 +58,13 @@ python main.py --concat_data --in_img_num 32 --normalize --item normalize
 Defualt: training with 32 input images.
 
 
+## Some notes:
+
+1. You can change the util.py / util-BEAR.py / util-Stagegallery.py in NormAttention-PSN/datasets, to fit different datsets' light directions.
+2. You can find the visual results and a detailed error list (on the DiLiGenT main dataset) in NormAttention-PSN/results.
+3. The ground truth of the DiLiGenT test dataset is not open. Please see https://sites.google.com/site/photometricstereodata/single, for testing your own method's quantitative results. After that, you can contact us (via: juyakun=AT=stu.ouc.edu.cn / yakun.ju=AT=hotmail.com) for our visual results.
+
+
 ## Acknowledgement:
 
 Our code is partially based on: https://github.com/guanyingc/PS-FCN.
