@@ -1,0 +1,62 @@
+ | TEST Iter [1/10] Epoch [1/35]
+	 [Time 39.689s] ToCPU: 30.232s| ToGPU: 0.097s| Forward: 9.208s| 
+	 [ACC] n_acc_11: 1.000| n_acc_30: 1.000| n_acc_45: 1.000| 
+	 [ERR] n_err_mean: 2.742| n_err_med: 2.553| 
+
+ | TEST Iter [2/10] Epoch [1/35]
+	 [Time 4.742s] ToCPU: 0.054s| ToGPU: 0.035s| Forward: 4.645s| 
+	 [ACC] n_acc_11: 0.902| n_acc_30: 0.998| n_acc_45: 1.000| 
+	 [ERR] n_err_mean: 6.105| n_err_med: 5.120| 
+
+ | TEST Iter [3/10] Epoch [1/35]
+	 [Time 4.677s] ToCPU: 0.048s| ToGPU: 0.029s| Forward: 4.591s| 
+	 [ACC] n_acc_11: 0.854| n_acc_30: 0.979| n_acc_45: 0.993| 
+	 [ERR] n_err_mean: 6.975| n_err_med: 4.769| 
+
+ | TEST Iter [4/10] Epoch [1/35]
+	 [Time 4.664s] ToCPU: 0.049s| ToGPU: 0.030s| Forward: 4.576s| 
+	 [ACC] n_acc_11: 0.950| n_acc_30: 0.997| n_acc_45: 0.999| 
+	 [ERR] n_err_mean: 4.491| n_err_med: 3.558| 
+
+ | TEST Iter [5/10] Epoch [1/35]
+	 [Time 4.662s] ToCPU: 0.049s| ToGPU: 0.029s| Forward: 4.576s| 
+	 [ACC] n_acc_11: 0.873| n_acc_30: 0.992| n_acc_45: 0.998| 
+	 [ERR] n_err_mean: 6.681| n_err_med: 5.410| 
+
+ | TEST Iter [6/10] Epoch [1/35]
+	 [Time 4.648s] ToCPU: 0.039s| ToGPU: 0.029s| Forward: 4.572s| 
+	 [ACC] n_acc_11: 0.851| n_acc_30: 0.975| n_acc_45: 0.989| 
+	 [ERR] n_err_mean: 7.873| n_err_med: 5.705| 
+
+ | TEST Iter [7/10] Epoch [1/35]
+	 [Time 4.667s] ToCPU: 0.038s| ToGPU: 0.029s| Forward: 4.591s| 
+	 [ACC] n_acc_11: 0.640| n_acc_30: 0.899| n_acc_45: 0.960| 
+	 [ERR] n_err_mean: 12.382| n_err_med: 7.657| 
+
+ | TEST Iter [8/10] Epoch [1/35]
+	 [Time 4.687s] ToCPU: 0.052s| ToGPU: 0.030s| Forward: 4.596s| 
+	 [ACC] n_acc_11: 0.900| n_acc_30: 0.991| n_acc_45: 0.997| 
+	 [ERR] n_err_mean: 5.922| n_err_med: 4.523| 
+
+ | TEST Iter [9/10] Epoch [1/35]
+	 [Time 4.681s] ToCPU: 0.050s| ToGPU: 0.030s| Forward: 4.592s| 
+	 [ACC] n_acc_11: 0.872| n_acc_30: 0.989| n_acc_45: 0.996| 
+	 [ERR] n_err_mean: 6.626| n_err_med: 5.068| 
+
+ | TEST Iter [10/10] Epoch [1/35]
+	 [Time 4.695s] ToCPU: 0.062s| ToGPU: 0.031s| Forward: 4.594s| 
+	 [ACC] n_acc_11: 0.711| n_acc_30: 0.939| n_acc_45: 0.979| 
+	 [ERR] n_err_mean: 10.512| n_err_med: 7.100| 
+
+---------- TEST Epoch 1 Summary -----------
+	 [ACC] n_acc_11: 0.855| n_acc_30: 0.976| n_acc_45: 0.991| 
+	 [ERR] n_err_mean: 7.031| n_err_med: 5.146| 
+
+bear 76:
+| TEST Iter [1/1] Epoch [1/35]
+	 [Time 17.093s] ToCPU: 11.429s| ToGPU: 0.026s| Forward: 5.609s| 
+	 [ACC] n_acc_11: 0.951| n_acc_30: 0.998| n_acc_45: 1.000| 
+	 [ERR] n_err_mean: 4.689| n_err_med: 3.862| 
+
+average: 6.89
+
