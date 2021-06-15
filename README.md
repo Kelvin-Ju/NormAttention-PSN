@@ -47,7 +47,16 @@ python eval/run_model.py --retrain data/models/NormAttention-PSN-test.pth.tar --
 ```
 You can change X to adjust the number of the input image. 
 
+NormAttention-PSN-test.pth.tar is our pre-trained weights (same as the report in paper)
+
 (up to 96 in the DiLiGenT main/test dataset, and 253 in the Light Stage Data Gallery)
+
+## Training on your device:
+```shell
+python main.py --concat_data --in_img_num 32 --normalize --item normalize
+```
+Defualt: training with 32 input images.
+
 
 ## Acknowledgement:
 
