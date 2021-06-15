@@ -7,7 +7,7 @@ Yakun JU, Boxin SHI, Muwei JIAN, Junyu DONG, and Kin-Man LAM
 
 ## Environment
 
-Implemented in PyTorch and tested with Ubuntu 18.04.
+Implemented in PyTorch with Ubuntu 18.04.
 
 Python: 3.6.9 
 
