@@ -4,6 +4,9 @@
 
 Yakun JU, Boxin SHI, Muwei JIAN, Junyu DONG, and Kin-Man LAM
 
+## Our Previous work:
+
+Attention-PSN, published on IJCAI 2020. https://www.ijcai.org/Proceedings/2020/0097 
 
 ## Environment
 
@@ -67,9 +70,7 @@ Defualt: training with 32 input images.
 
 Our code is partially based on: https://github.com/guanyingc/PS-FCN.
 
-## Our Previous work:
 
-Attention-PSN, published on IJCAI 2020. https://www.ijcai.org/Proceedings/2020/0097 
 
 
 
