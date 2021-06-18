@@ -11,9 +11,7 @@ Implemented in PyTorch with Ubuntu 18.04.
 
 Python: 3.6.9 
 
-PyTorch 1.40 with scipy, numpy, etc.
-
-CUDA 10.0
+PyTorch 1.4.0 with scipy, numpy, etc.
 
 RTX 2080 (8G)
 
