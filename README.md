@@ -6,7 +6,7 @@ Yakun JU, Boxin SHI, Muwei JIAN, Junyu DONG, and Kin-Man LAM
 
 ## Our Previous work:
 
-Attention-PSN, published on IJCAI 2020. https://www.ijcai.org/Proceedings/2020/0097 
+Pay Attention to Devils: A Photometric Stereo Network for Better Details (Attention-PSN), published on IJCAI 2020. https://www.ijcai.org/Proceedings/2020/0097 
 
 ## Environment
 
