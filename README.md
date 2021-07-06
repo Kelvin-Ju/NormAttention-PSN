@@ -42,6 +42,10 @@ https://vgl.ict.usc.edu/Data/LightStage/
 
 (We advise to down-sample the resolution of this dataset, otherwise, your GPU is really hard to handle.)
 
+Apple&Ground dataset, via:
+
+http://vision.ucsd.edu/~nalldrin/research/
+
 ## Testing on your device:
 ```shell
 python eval/run_model.py --retrain data/models/NormAttention-PSN-test.pth.tar --in_img_num X --normalize --train_img_num 32
