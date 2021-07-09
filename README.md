@@ -56,6 +56,12 @@ NormAttention-PSN-test.pth.tar is our trained weights (same as the report in pap
 
 (up to 96 in the DiLiGenT main/test dataset, and 253 in the Light Stage Data Gallery)
 
+
+## Results on the DiLiGenT benchmark dataset:
+
+We have provided the estimated surface normals and error maps on the DiLiGenT benchmark dataset (under 96 input images, and 76 input images of "Bear").
+Please see in NormAttention-PSN/results.
+
 ## Training on your device:
 ```shell
 python main.py --concat_data --in_img_num 32 --normalize --item normalize
