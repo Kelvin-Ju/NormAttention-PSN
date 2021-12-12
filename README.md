@@ -42,7 +42,7 @@ https://vgl.ict.usc.edu/Data/LightStage/
 
 (We advise to down-sample the resolution of this dataset, otherwise, your GPU is really hard to handle.)
 
-Apple&Ground dataset, via:
+Apple&Gourd dataset, via:
 
 http://vision.ucsd.edu/~nalldrin/research/
 
