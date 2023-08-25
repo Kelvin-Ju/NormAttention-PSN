@@ -163,7 +163,7 @@ class AttRegressor(nn.Module):
 
 class NormAttentionPSN(nn.Module):
     def __init__(self, fuse_type='max', batchNorm=False, c_in=3, other={}):
-        super(PS_FCN, self).__init__()
+        super(NormAttentionPSN, self).__init__()
         self.extractor = FeatExtractor(batchNorm, c_in, other)
         self.regressor = Regressor(batchNorm, other)
         self.attextractor = AttExtractor(batchNorm, c_in, other)
