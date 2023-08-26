@@ -6,10 +6,10 @@ def buildModel(args):
     other = {'img_num': args.in_img_num, 'in_light': args.in_light}
     if args.model == 'NormAttentionPSN': 
         from models.NormAttentionPSN import NormAttentionPSN
-        model = PS_FCN(args.fuse_type, args.use_BN, in_c, other)
+        model = NormAttentionPSN(args.fuse_type, args.use_BN, in_c, other)
     elif args.model == 'NormAttentionPSN_run':
         from models.NormAttentionPSN_run import NormAttentionPSN
-        model = PS_FCN(args.fuse_type, args.use_BN, in_c, other)
+        model = NormAttentionPSN(args.fuse_type, args.use_BN, in_c, other)
     else:
         raise Exception("=> Unknown Model '{}'".format(args.model))
     
